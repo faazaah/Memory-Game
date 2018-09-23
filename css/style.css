@@ -1,0 +1,225 @@
+html {
+    box-sizing: border-box;
+}
+
+
+.container {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+/*Header*/
+.heading {
+	text-align: center;
+	color: #808;
+  width: 100%;
+  font-family: 'Monofett', cursive;
+}
+
+
+/*Section*/
+.score-panel {
+  margin: auto;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.timer {
+  margin: 0 10px;
+	color: #808;
+	font-size: 1em;
+	text-align: center;
+  font-family: 'Caveat Brush', cursive;
+}
+
+
+.moves-counter {
+  margin: 0 10px 0 10px;
+  color: #808;
+  text-align: center;
+  font-family: 'Caveat Brush', cursive;
+}
+
+
+.star-rating {
+  margin: 0 10px;
+}
+
+
+.star {
+  height: 30px;
+  width: 30px;
+}
+
+
+.restart-button {
+  border: 2px solid #808;
+  background-color: #faf;
+  color: #808;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Caveat Brush', cursive;
+}
+
+
+.restart-button:hover {
+  background-color: #808;
+  color: #faf;
+}
+
+
+/*Deck of Cards*/
+.grid {
+	align-content: center;
+	align-self: center;
+  width: 100%;
+}
+
+
+.card-deck {
+  width: 100%;
+  margin: auto;
+	border: solid #706;
+  background-color: #fff;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+	flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 10px;
+  grid-row-gap: 1em;
+	width: 500px;
+	height: 500px;
+	align-content: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 12px 15px 20px 0 #759;
+}
+
+
+.card-deck .card {
+  box-shadow: 5px 2px 20px 0 #759 ;
+	background-color: #c39;
+  border-radius: 5px;
+	border: 1px solid #706;
+ 	height: 110px;
+ 	width: 110px;
+ 	cursor: pointer;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+  color: #fff;
+}
+
+
+/*Images in the grid*/
+.image {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*Win Modal*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.modal-text {
+    background-color: #706;
+    color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 80%;
+    text-align: center;
+    font-family: 'Mystery Quest', cursive;
+}
+
+
+.play-yes,
+.play-no {
+  cursor: pointer;
+  color: #706;
+  background-color: #fff;
+}
+
+
+/*Close button in modal*/
+.close-button {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #706;
+    background-color: #fff;
+}
+
+
+/*Footer*/
+.footer {
+	text-align: center;
+}
+
+
+/*Media Queries to allow the web page content to fit on any screen size*/
+
+/*Media Query for Smart Phone*/
+@media only screen and (max-width: 700px) {
+  .star {
+    height: 10px;
+    width: 10px;
+  }
+
+
+  .restart-button {
+    font-size: 10px;
+  }
+
+
+ .card-deck {
+  width: 100%;
+  margin: 0 0 1em 0;
+  max-width: 325px;
+  height: 300px;
+  grid-column-gap: 2px;
+  grid-row-gap: 1px;
+  grid-auto-rows: minmax(65px, auto);
+ }
+
+
+ .card-deck .card {
+  width: 50px;
+  height: 50px;
+ }
+
+
+  .modal-text {
+    font-size: 1em;
+  }
+
+
+  .close-button {
+    font-size: 14px;
+  }
+}
+
+
+
+
