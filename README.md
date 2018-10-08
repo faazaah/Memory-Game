@@ -10,4 +10,4 @@
 * The project utilizes a grid based layout using flexbox.
 * The webpage is responsive and displays well on Desktops, Laptops and phone browsers.(Tested on Google Chrome Dev Tools).
 * Images used in the project are from www.pixabay.com and are copyright free.
-* The webpage can be accessed by opening the index.html file in the browser.
+* The webpage can be accessed by opening the index.html file in the browser OR Play the game here [Memory Game](https://faazaah.github.io/Memory-Game/)
