@@ -9,7 +9,7 @@
 * The webpage is responsive and displays well on Desktops, Laptops and phone browsers.(Tested on Google Chrome Dev Tools).
 * Images used in the project are from www.pixabay.com and are copyright free.
 
-#### About the Game 
+#### Game Rules
 
 * The game works on the following logic :
 	* Two cards can be clicked at a time to reveal them. If the cards match they stay open, or else the cards get 		hidden. 
