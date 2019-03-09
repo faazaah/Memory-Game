@@ -7,9 +7,9 @@
 * This is written in HTML, CSS and JavaScript.
 * The project utilizes a grid based layout using flexbox.
 * The webpage is responsive and displays well on Desktops, Laptops and phone browsers.(Tested on Google Chrome Dev Tools).
-* Images used in the project are from www.pixabay.com and are copyright free.
+* Images used in the project are from [Pixabay](https://pixabay.com/) and are copyright free.
 
-#### Game Rules
+#### How To Play
 
 * The game works on the following logic :
 	* Two cards can be clicked at a time to reveal them. If the cards match they stay open, or else the cards get 		hidden. 
@@ -19,4 +19,11 @@
 	* When all cards are matched, the user wins the game.
 
 
-The webpage can be accessed by opening the index.html file in the browser OR Play the game here [Memory Game](https://faazaah.github.io/Memory-Game/)
+The webpage can be accessed by opening the index.html file in the browser 
+                             OR 
+Play the game here [Memory Game](https://faazaah.github.io/Memory-Game/)
+
+#### Resources
+
+* [MDN Web Docs](https://developer.mozilla.org/en-US/)
+* Udacity Courses
